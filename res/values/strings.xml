@@ -136,6 +136,12 @@
     <string name="dial6">Info</string>
     <string name="dial6_sum">Current network info</string>
 
+  <!-- Navbar fragment -->
+    <string name="navigation_bar_opt_cat">Navigation bar options</string>
+    <!-- Kill app long-press back -->
+    <string name="kill_app_longpress_back">Kill app back button</string>
+    <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back button</string>
+
   <!-- toolbar menu strings -->
     <string name="action_settings">Settings</string>
     <string name="action_about">About</string>
