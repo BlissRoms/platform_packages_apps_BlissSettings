@@ -15,46 +15,10 @@
 -->
 
 <resources xmlns:xliff="http://schemas.android.com/apk/res/android">
+  <!-- App Name -->
     <string name="app_name">PureNexus</string>
-    <!-- For the toolbar menu... perhaps more will be added... or removed -->
-    <string name="action_settings">Settings</string>
-    <string name="action_about">About</string>
-    <string name="action_launchhide">Drawer hide</string>
-    <string name="action_search">Search</string>
-    <string name="saveprop">Save</string>
-    <string name="discardprop">Discard</string>
-    <string name="deleteprop">Delete</string>
-    <string name="cancelprop">Cancel</string>
-    <string name="editprop_add">Add</string>
-    <string name="editprop_backup">Backup</string>
-    <string name="editprop_restore">Restore</string>
-    <string name="action_fabhide">Show FAB</string>
 
-    <!-- For the widget stuff -->
-    <string name="widget_title_info">Pick a target</string>
-
-    <!-- Alpha string for sliding tab -->
-    <string name="tab_indicator_alpha">0x26</string>
-
-    <!-- Color picker strings -->
-    <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on Color to apply</string>
-    <string name="hex">Hex:</string>
-    <string name="hex_hint">#FFDDDDDD</string>
-    <string name="hex_check_button_text">PREVIEW</string>
-    <string name="hex_reset_button_text">RESET</string>
-    <string name="colorpicker_summary">Current color</string>
-    <string name="color_right_arrow">"→"</string>
-    <string name="color_down_arrow">"↓"</string>
-    <string name="longpress_info">Longpress box to save color</string>
-
-    <!-- For the app picker intent stuff -->
-    <string name="screen_off">Screen off</string>
-    <string name="powermenu">Power menu</string>
-    <string name="donothing">Do nothing</string>
-    <string name="picker_summary">Not set</string>
-
-    <!-- About Frag strings -->
+  <!-- About Frag strings -->
     <string name="pushbullet_data">https://www.pushbullet.com/channel?tag=purenexus</string>
     <string name="gplus_data">https://plus.google.com/communities/103055954354785266764</string>
     <string name="twit_data">https://twitter.com/BeansTown106</string>
@@ -83,53 +47,19 @@
     <string name="bajasur">Bajasur</string>
     <string name="tweak_sum">Misc Tweaks</string>
 
-    <!-- BuildProp edit strings -->
-    <string name="editprop_key">Property Key</string>
-    <string name="editprop_name">Property Name</string>
-    <string name="editprop_title">Edit/Add Property</string>
-    <string name="editprop_unsaved_changes_title">Unsaved Changes</string>
-    <string name="editprop_unsaved_changes_message">Would you like to set this property?</string>
-    <string name="editprop_delete_item_title">Delete Item</string>
-    <string name="editprop_delete_item_message">Would you like to delete this property?</string>
+  <!-- Alpha string for sliding tab -->
+    <string name="tab_indicator_alpha">0x26</string>
 
-    <!-- Device Frag strings -->
-    <string name="device_info_title">Phone info</string>
-    <string name="device_summ">Get general info about your device</string>
-    <string name="title_battery_history">Battery history</string>
-    <string name="summary_battery_history">Summary of how battery has been used</string>
-    <string name="title_usage_statistics">Usage statistics</string>
-    <string name="summary_usage_statistics">Summary of application usage</string>
-    <string name="wifi_title">WiFi information</string>
-    <string name="wifi_summary">Various bits of WiFi relevant information</string>
-    <string name="buildproptitle">Build.prop editor</string>
-    <string name="buildpropsummary">Click to open build.prop editor</string>
-    <string name="fiswitchtitle">Project Fi Tools</string>
-    <string name="fiswitchsummary">Click for useful dial codes</string>
+  <!-- App picker intent stuff -->
+    <string name="screen_off">Screen off</string>
+    <string name="powermenu">Power menu</string>
+    <string name="donothing">Do nothing</string>
+    <string name="picker_summary">Not set</string>
 
-    <!-- FiSwitch Frag strings -->
-    <string name="dial1">Sprint</string>
-    <string name="dial1_sum">Force jump to Sprint</string>
-    <string name="dial2">T-Mobile</string>
-    <string name="dial2_sum">Force jump to T-Mobile</string>
-    <string name="dial3">Next carrier</string>
-    <string name="dial3_sum">Force jump to next carrier</string>
-    <string name="dial4">Auto-switch</string>
-    <string name="dial4_sum">(Re)Enable auto switching</string>
-    <string name="dial5">Repair</string>
-    <string name="dial5_sum">Resets everything</string>
-    <string name="dial6">Info</string>
-    <string name="dial6_sum">Current network info</string>
-
-    <!-- More frag-specific strings... eventually -->
-
-    <!-- Content Description -->
-    <string name="desc_list_item_icon">Item Icon</string>
-
-    <!-- Stuff for the app info dialog fragment -->
+  <!--App info dialog fragment -->
     <string name="alertdiagtitle">Changelog v1.0</string>
     <string name="setpositive">OK</string>
     <string name="setnegative">Credits</string>
-
     <string name="changelog"><![CDATA[
 &#8226; Made a groovy little settings app<br />
 &#8226; Did lots of minor UI things<br />
@@ -154,4 +84,72 @@
 &#8226; All contributors to stackoverflow or various other java/android app making resources<br />
 &#8226; Those not mentioned but should have been<br />]]></string>
 
+  <!-- BuildProp editor -->
+    <string name="editprop_key">Property Key</string>
+    <string name="editprop_name">Property Name</string>
+    <string name="editprop_title">Edit/Add Property</string>
+    <string name="editprop_unsaved_changes_title">Unsaved Changes</string>
+    <string name="editprop_unsaved_changes_message">Would you like to set this property?</string>
+    <string name="editprop_delete_item_title">Delete Item</string>
+    <string name="editprop_delete_item_message">Would you like to delete this property?</string>
+
+  <!-- Color picker strings -->
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on Color to apply</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#FFDDDDDD</string>
+    <string name="hex_check_button_text">PREVIEW</string>
+    <string name="hex_reset_button_text">RESET</string>
+    <string name="colorpicker_summary">Current color</string>
+    <string name="color_right_arrow">"→"</string>
+    <string name="color_down_arrow">"↓"</string>
+    <string name="longpress_info">Longpress box to save color</string>
+
+  <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+  <!-- Device Frag strings -->
+    <string name="device_info_title">Phone info</string>
+    <string name="device_summ">Get general info about your device</string>
+    <string name="title_battery_history">Battery history</string>
+    <string name="summary_battery_history">Summary of how battery has been used</string>
+    <string name="title_usage_statistics">Usage statistics</string>
+    <string name="summary_usage_statistics">Summary of application usage</string>
+    <string name="wifi_title">WiFi information</string>
+    <string name="wifi_summary">Various bits of WiFi relevant information</string>
+    <string name="buildproptitle">Build.prop editor</string>
+    <string name="buildpropsummary">Click to open build.prop editor</string>
+    <string name="fiswitchtitle">Project Fi Tools</string>
+    <string name="fiswitchsummary">Click for useful dial codes</string>
+
+  <!-- FiSwitch Frag strings -->
+    <string name="dial1">Sprint</string>
+    <string name="dial1_sum">Force jump to Sprint</string>
+    <string name="dial2">T-Mobile</string>
+    <string name="dial2_sum">Force jump to T-Mobile</string>
+    <string name="dial3">Next carrier</string>
+    <string name="dial3_sum">Force jump to next carrier</string>
+    <string name="dial4">Auto-switch</string>
+    <string name="dial4_sum">(Re)Enable auto switching</string>
+    <string name="dial5">Repair</string>
+    <string name="dial5_sum">Resets everything</string>
+    <string name="dial6">Info</string>
+    <string name="dial6_sum">Current network info</string>
+
+  <!-- toolbar menu strings -->
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="action_launchhide">Drawer hide</string>
+    <string name="action_search">Search</string>
+    <string name="saveprop">Save</string>
+    <string name="discardprop">Discard</string>
+    <string name="deleteprop">Delete</string>
+    <string name="cancelprop">Cancel</string>
+    <string name="editprop_add">Add</string>
+    <string name="editprop_backup">Backup</string>
+    <string name="editprop_restore">Restore</string>
+    <string name="action_fabhide">Show FAB</string>
+
+  <!-- widget strings -->
+    <string name="widget_title_info">Pick a target</string>
 </resources>
