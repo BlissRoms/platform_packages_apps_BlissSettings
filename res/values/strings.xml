@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2015 The Pure Nexus Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="http://schemas.android.com/apk/res/android">
+    <string name="app_name">PureNexus</string>
+    <!-- For the toolbar menu... perhaps more will be added... or removed -->
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="action_launchhide">Drawer hide</string>
+    <string name="action_search">Search</string>
+    <string name="saveprop">Save</string>
+    <string name="discardprop">Discard</string>
+    <string name="deleteprop">Delete</string>
+    <string name="cancelprop">Cancel</string>
+    <string name="editprop_add">Add</string>
+    <string name="editprop_backup">Backup</string>
+    <string name="editprop_restore">Restore</string>
+    <string name="action_fabhide">Show FAB</string>
+
+    <!-- For the widget stuff -->
+    <string name="widget_title_info">Pick a target</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>About</item>
+        <item>Build prop</item>
+        <item>Edit build prop</item>
+        <item>App picker</item>
+        <item>Fi Switch</item>
+        <item>Tools and info</item>
+        <item>Dummy Fragment 1</item>
+        <item>Dummy Fragment 2</item>
+        <item>Dummy Fragment 3</item>
+        <item>Dummy Fragment 4</item>
+        <item>More Dummy Frag 1</item>
+    </string-array>
+
+    <!-- Nav Drawer categories -->
+    <!-- keep in the order they will appear! -->
+    <string-array name="nav_drawer_cats">
+        <item>Utilities</item>
+        <item>Dummy Stuff</item>
+        <item>More Dummy Stuff</item>
+    </string-array>
+
+    <integer-array name="nav_drawer_cat_nums">
+        <item>5</item> <!-- this first part indicates the number of navdrawer frags NOT to be listed -->
+        <item>1</item>
+        <item>4</item>
+        <item>1</item>
+    </integer-array>
+
+    <!-- Nav Drawer Fragment names-->
+    <!-- Keep them in order as the titles are in -->
+    <string-array name="nav_drawer_fragments">
+        <item>AboutFragment</item>
+        <item>BuildPropFragment</item>
+        <item>EditPropFragment</item>
+        <item>AppPickerFragment</item>
+        <item>FiSwitchFragment</item>
+        <item>DeviceFragment</item>
+        <item>DummyFragment</item>
+        <item>DummyFragment</item>
+        <item>DummyFragment</item>
+        <item>DummyFragment</item>
+        <item>DummyFragment</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <!-- Also note that icons for items not in navdrawer won't be shown -->
+    <array name="nav_drawer_icons">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </array>
+
+    <!-- Example sliding tab titles -->
+    <string-array name="app_pick_items">
+        <item>Custom</item>
+        <item>Applications</item>
+        <item>Shortcuts</item>
+    </string-array>
+
+    <!-- Example sildingtab Fragment names-->
+    <!-- Keep them in order as the titles are in -->
+    <string-array name="apppick_tab_fragments">
+        <item>AppPickerCustomFragment</item>
+        <item>AppPickerAppFragment</item>
+        <item>AppPickerShortFragment</item>
+    </string-array>
+
+    <!-- Titles for custom items to apppicker -->
+    <string-array name="apppicker_extras">
+        <item>@string/donothing</item>
+        <item>@string/app_name</item>
+        <item>@string/screen_off</item>
+    </string-array>
+
+    <!-- Icons for custom items to apppicker -->
+    <!-- Keep them in order as the titles are in -->
+    <string-array name="apppicker_icons_extras">
+        <item>@drawable/ic_launcher_donothing</item>
+        <item>@drawable/ic_launcher_apps</item>
+        <item>@drawable/ic_launcher_screenoff</item>
+    </string-array>
+
+    <!-- Keys for custom items to apppicker -->
+    <!-- Keep them in order as the titles are in -->
+    <string-array name="apppicker_keys_extras">
+        <item>donothingintent</item>
+        <item>null</item>
+        <item>screenoffintent</item>
+    </string-array>
+
+    <!-- Titles for custom items to apppicker -->
+    <string-array name="apppicker_2_extras">
+        <item>@string/donothing</item>
+        <item>@string/app_name</item>
+    </string-array>
+
+    <!-- Icons for custom items to apppicker -->
+    <!-- Keep them in order as the titles are in -->
+    <string-array name="apppicker_2_icons_extras">
+        <item>@drawable/ic_launcher_donothing</item>
+        <item>@drawable/ic_launcher_apps</item>
+    </string-array>
+
+    <!-- Keys for custom items to apppicker -->
+    <!-- Keep them in order as the titles are in -->
+    <string-array name="apppicker_2_keys_extras">
+        <item>donothingintent</item>
+        <item>null</item>
+    </string-array>
+
+    <!-- Alpha string for sliding tab -->
+    <string name="tab_indicator_alpha">0x26</string>
+
+    <!-- Color picker strings -->
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on Color to apply</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#FFDDDDDD</string>
+    <string name="hex_check_button_text">PREVIEW</string>
+    <string name="hex_reset_button_text">RESET</string>
+    <string name="colorpicker_summary">Current color</string>
+    <string name="color_right_arrow">"→"</string>
+    <string name="color_down_arrow">"↓"</string>
+    <string name="longpress_info">Longpress box to save color</string>
+
+    <!-- For the app picker intent stuff -->
+    <string name="screen_off">Screen off</string>
+    <string name="powermenu">Power menu</string>
+    <string name="donothing">Do nothing</string>
+    <string name="picker_summary">Not set</string>
+
+    <!-- About Frag strings -->
+    <string name="pushbullet_data">https://www.pushbullet.com/channel?tag=purenexus</string>
+    <string name="gplus_data">https://plus.google.com/communities/103055954354785266764</string>
+    <string name="twit_data">https://twitter.com/BeansTown106</string>
+    <string name="payp_data">http://forum.xda-developers.com/donatetome.php?u=4395895</string>
+    <string name="miscinfo_title">App Info</string>
+    <string name="miscinfo_summary">Click here for changelog and app-specific credits</string>
+    <string name="nexus_about">PureNexus info</string>
+    <string name="nexus_about_summary">Misc info about the rom, developer and contributors</string>
+    <string name="nexus_useful">Useful links</string>
+    <string name="nexus_updates">Pushbullet update notifications</string>
+    <string name="lead_dev">Lead Developer</string>
+    <string name="beans">BeansTown106</string>
+    <string name="beans_sum">Main PureNexus maintainer</string>
+    <string name="beans_twit">BeansTown\'s Twitter</string>
+    <string name="nexus_gplus">PureNexus Google+ community</string>
+    <string name="donate">Donate to support development</string>
+    <string name="contribute">Contributors</string>
+    <string name="devonte">Dwitherell</string>
+    <string name="devonte_sum">Coder/tweaker</string>
+    <string name="dhack">Dhacker29</string>
+    <string name="dhack_sum">Gapps Base</string>
+    <string name="daveya">DaveyAnnihilation</string>
+    <string name="wally">Wally3614</string>
+    <string name="gfx_sum">Graphics/icons</string>
+    <string name="surge">Surge1223</string>
+    <string name="bajasur">Bajasur</string>
+    <string name="tweak_sum">Misc Tweaks</string>
+
+    <!-- BuildProp edit strings -->
+    <string name="editprop_key">Property Key</string>
+    <string name="editprop_name">Property Name</string>
+    <string name="editprop_title">Edit/Add Property</string>
+    <string name="editprop_unsaved_changes_title">Unsaved Changes</string>
+    <string name="editprop_unsaved_changes_message">Would you like to set this property?</string>
+    <string name="editprop_delete_item_title">Delete Item</string>
+    <string name="editprop_delete_item_message">Would you like to delete this property?</string>
+
+    <!-- Device Frag strings -->
+    <string name="device_info_title">Phone info</string>
+    <string name="device_summ">Get general info about your device</string>
+    <string name="title_battery_history">Battery history</string>
+    <string name="summary_battery_history">Summary of how battery has been used</string>
+    <string name="title_usage_statistics">Usage statistics</string>
+    <string name="summary_usage_statistics">Summary of application usage</string>
+    <string name="wifi_title">WiFi information</string>
+    <string name="wifi_summary">Various bits of WiFi relevant information</string>
+    <string name="buildproptitle">Build.prop editor</string>
+    <string name="buildpropsummary">Click to open build.prop editor</string>
+    <string name="fiswitchtitle">Project Fi Tools</string>
+    <string name="fiswitchsummary">Click for useful dial codes</string>
+
+    <!-- FiSwitch Frag strings -->
+    <string name="dial1">Sprint</string>
+    <string name="dial1_sum">Force jump to Sprint</string>
+    <string name="dial2">T-Mobile</string>
+    <string name="dial2_sum">Force jump to T-Mobile</string>
+    <string name="dial3">Next carrier</string>
+    <string name="dial3_sum">Force jump to next carrier</string>
+    <string name="dial4">Auto-switch</string>
+    <string name="dial4_sum">(Re)Enable auto switching</string>
+    <string name="dial5">Repair</string>
+    <string name="dial5_sum">Resets everything</string>
+    <string name="dial6">Info</string>
+    <string name="dial6_sum">Current network info</string>
+
+    <!-- More frag-specific strings... eventually -->
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <!-- Stuff for the app info dialog fragment -->
+    <string name="alertdiagtitle">Changelog v1.0</string>
+    <string name="setpositive">OK</string>
+    <string name="setnegative">Credits</string>
+
+    <string name="changelog"><![CDATA[
+&#8226; Made a groovy little settings app<br />
+&#8226; Did lots of minor UI things<br />
+&#160; &#8226; Animated fragment switching and backstack handling<br />
+&#160; &#8226; Actionbar options when interacting with navdrawer<br />
+&#8226; Modified margaritov/SlimRom color picker<br />
+&#160; &#8226; Added alpha slider text - represents current alpha as percentage<br />
+&#160; &#8226; Fixed minor hex-picking int-to-HSV-to-int issue<br />
+&#160; &#8226; Edited color picker layout to show better in landscape<br />
+&#160; &#8226; Added reset button for default color in color picker<br />
+&#160; &#8226; Custom preview options setable via longpress<br />
+&#8226; Added ability to hide/show app in app drawer<br />
+&#8226; Added some fun extras<br />
+&#8226; Incorporated Chainfire\'s libsuperuser to handle root tasks<br />]]></string>
+    <string name="credits"><![CDATA[
+&#8226; Chainfire for the easy-to-implement libsuperuser library<br />
+&#8226; margaritov/slim rom for the color picker base<br />
+&#8226; Beans for the rom and an excuse to tinker<br />
+&#8226; Cheekybastards for living up to their namesake<br />
+&#8226; DaveyAnnihilation for all the help with setting things up theme-friendly and general aesthetics<br />
+&#8226; Gunthermic, for testing and great ideas with the colorpicker<br />
+&#8226; All contributors to stackoverflow or various other java/android app making resources<br />
+&#8226; Those not mentioned but should have been<br />]]></string>
+
+</resources>
