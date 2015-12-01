@@ -30,7 +30,7 @@ res_dirs := res $(appcompat_dir) $(cardview_dir) $(recyclerview_dir) $(design_di
 # Build APK
 include $(CLEAR_VARS)
 
-LOCAL_PACKAGE_NAME := BlissSettings
+LOCAL_PACKAGE_NAME := PureNexusSettings
 LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PROGUARD_ENABLED := disabled
