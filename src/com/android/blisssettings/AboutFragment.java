@@ -110,26 +110,14 @@ public class AboutFragment extends Fragment {
         View v = inflater.inflate(R.layout.about_frag_card, container, false);
 
         final LinearLayout logo = (LinearLayout)v.findViewById(R.id.logo_card);
-        LinearLayout thanks = (LinearLayout)v.findViewById(R.id.credits_card);
 
         //gplus
         LinearLayout link1 = (LinearLayout)v.findViewById(R.id.link1_card);
         //gplus
         LinearLayout link2 = (LinearLayout)v.findViewById(R.id.link2_card);
-        //twitter
-        LinearLayout link3 = (LinearLayout)v.findViewById(R.id.link3_card);
         //donate
         LinearLayout link4 = (LinearLayout)v.findViewById(R.id.link4_card);
 
-        thanks.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (popUpInfo == null || !popUpInfo.isShowing()) {
-                    getStartDialog();
-                    logo.setClickable(true);
-                }
-            }
-        });
 
         link1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -146,16 +134,6 @@ public class AboutFragment extends Fragment {
             public void onClick(View v) {
                 Intent link = new Intent(Intent.ACTION_VIEW);
                 Uri url = Uri.parse(getString(R.string.gplus_data));
-                link.setData(url);
-                startActivity(link);
-            }
-        });
-
-        link3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent link = new Intent(Intent.ACTION_VIEW);
-                Uri url = Uri.parse(getString(R.string.twit_data));
                 link.setData(url);
                 startActivity(link);
             }

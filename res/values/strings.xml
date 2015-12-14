@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2015 The Pure Nexus Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,7 +15,7 @@
 -->
 
 <resources xmlns:xliff="http://schemas.android.com/apk/res/android">
-    <string name="app_name">PureNexus</string>
+    <string name="app_name">Bliss Settings</string>
     <!-- For the toolbar menu... perhaps more will be added... or removed -->
     <string name="action_settings">Settings</string>
     <string name="action_about">About</string>
@@ -176,33 +176,23 @@
     <string name="picker_summary">Not set</string>
 
     <!-- About Frag strings -->
-    <string name="pushbullet_data">https://www.pushbullet.com/channel?tag=purenexus</string>
-    <string name="gplus_data">https://plus.google.com/communities/103055954354785266764</string>
-    <string name="twit_data">https://twitter.com/BeansTown106</string>
-    <string name="payp_data">http://forum.xda-developers.com/donatetome.php?u=4395895</string>
+    <string name="pushbullet_data">https://www.pushbullet.com/my-channel?tag=blissroms</string>
+    <string name="gplus_data">https://plus.google.com/communities/118265887490106132524</string>
+    <string name="site_data">https://blissroms.com</string>
+    <string name="payp_data">http://goo.gl/tymMFo</string>
     <string name="miscinfo_title">App Info</string>
     <string name="miscinfo_summary">Click here for changelog and app-specific credits</string>
-    <string name="nexus_about">PureNexus info</string>
+    <string name="nexus_about">Bliss Roms info</string>
     <string name="nexus_about_summary">Misc info about the rom, developer and contributors</string>
     <string name="nexus_useful">Useful links</string>
     <string name="nexus_updates">Pushbullet update notifications</string>
     <string name="lead_dev">Lead Developer</string>
-    <string name="beans">BeansTown106</string>
-    <string name="beans_sum">Main PureNexus maintainer</string>
-    <string name="beans_twit">BeansTown\'s Twitter</string>
-    <string name="nexus_gplus">PureNexus Google+ community</string>
+    <string name="admins">pjgraber03</string>
+    <string name="admins_sum">Main Bliss Roms Maintainers</string>
+    <string name="bliss_gplus">Bliss Roms Google+ community</string>
     <string name="donate">Donate to support development</string>
     <string name="contribute">Contributors</string>
     <string name="devonte">Dwitherell</string>
-    <string name="devonte_sum">Coder/tweaker</string>
-    <string name="dhack">Dhacker29</string>
-    <string name="dhack_sum">Gapps Base</string>
-    <string name="daveya">DaveyAnnihilation</string>
-    <string name="wally">Wally3614</string>
-    <string name="gfx_sum">Graphics/icons</string>
-    <string name="surge">Surge1223</string>
-    <string name="bajasur">Bajasur</string>
-    <string name="tweak_sum">Misc Tweaks</string>
 
     <!-- BuildProp edit strings -->
     <string name="editprop_key">Property Key</string>

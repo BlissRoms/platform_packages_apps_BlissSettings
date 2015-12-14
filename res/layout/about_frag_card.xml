@@ -75,26 +75,9 @@
             <LinearLayout android:orientation="horizontal" android:id="@+id/link2_card" android:layout_width="match_parent" android:layout_height="match_parent" android:clickable="true" android:background="?android:selectableItemBackground" android:padding="@dimen/cardview_padding">
                 <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:src="@drawable/gplus" tools:ignore="ContentDescription" />
                 <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:padding="10dp">
-                    <TextView  android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:text="@string/nexus_gplus" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="@color/cardview_pref_title" android:gravity="center_vertical" />
+                    <TextView  android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:text="@string/bliss_gplus" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="@color/cardview_pref_title" android:gravity="center_vertical" />
                 </LinearLayout>
-            </LinearLayout>
 
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:layout_gravity="center_vertical"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/cardview_pref_height"
-            app:cardUseCompatPadding="true"
-            app:cardElevation="@dimen/cardview_elevate"
-            app:cardBackgroundColor="@color/cardlayout_bg"
-            app:cardCornerRadius="@dimen/cardview_rounding">
-
-            <LinearLayout android:orientation="horizontal" android:id="@+id/link3_card" android:layout_width="match_parent" android:layout_height="match_parent" android:clickable="true" android:background="?android:selectableItemBackground" android:padding="@dimen/cardview_padding">
-                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:src="@drawable/twitter" tools:ignore="ContentDescription" />
-                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:padding="10dp">
-                    <TextView  android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:text="@string/beans_twit" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="@color/cardview_pref_title" android:gravity="center_vertical" />
-                </LinearLayout>
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
@@ -129,128 +112,11 @@
             app:cardCornerRadius="@dimen/cardview_rounding">
 
             <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingTop="@dimen/cardview_padding" android:paddingBottom="@dimen/cardview_padding" android:paddingStart="@dimen/cardview_pref_padding" android:paddingEnd="@dimen/cardview_padding">
-                <TextView  android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" android:text="@string/beans" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="@color/cardview_pref_title" android:gravity="bottom" />
-                <TextView  android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" android:text="@string/beans_sum" android:textAppearance="?android:attr/textAppearanceSmall" android:gravity="top" />
+                <TextView  android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" android:text="@string/admins" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="@color/cardview_pref_title" android:gravity="bottom" />
+                <TextView  android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" android:text="@string/admins_sum" android:textAppearance="?android:attr/textAppearanceSmall" android:gravity="top" />
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
 
-        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contribute" android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="center" android:layout_gravity="center"/>
-
-        <android.support.v7.widget.CardView
-            android:layout_gravity="center_vertical"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/cardview_pref_height"
-            app:cardUseCompatPadding="true"
-            app:cardElevation="@dimen/cardview_elevate"
-            app:cardBackgroundColor="@color/cardlayout_bg"
-            app:cardCornerRadius="@dimen/cardview_rounding">
-
-            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingTop="@dimen/cardview_padding" android:paddingBottom="@dimen/cardview_padding" android:paddingStart="@dimen/cardview_pref_padding" android:paddingEnd="@dimen/cardview_padding">
-                <TextView  android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" android:text="@string/devonte" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="@color/cardview_pref_title" android:gravity="bottom" />
-                <TextView  android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" android:text="@string/devonte_sum" android:textAppearance="?android:attr/textAppearanceSmall" android:gravity="top" />
-            </LinearLayout>
-
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:layout_gravity="center_vertical"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/cardview_pref_height"
-            app:cardUseCompatPadding="true"
-            app:cardElevation="@dimen/cardview_elevate"
-            app:cardBackgroundColor="@color/cardlayout_bg"
-            app:cardCornerRadius="@dimen/cardview_rounding">
-
-            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingTop="@dimen/cardview_padding" android:paddingBottom="@dimen/cardview_padding" android:paddingStart="@dimen/cardview_pref_padding" android:paddingEnd="@dimen/cardview_padding">
-                <TextView  android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" android:text="@string/dhack" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="@color/cardview_pref_title" android:gravity="bottom" />
-                <TextView  android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" android:text="@string/dhack_sum" android:textAppearance="?android:attr/textAppearanceSmall" android:gravity="top" />
-            </LinearLayout>
-
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:layout_gravity="center_vertical"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/cardview_pref_height"
-            app:cardUseCompatPadding="true"
-            app:cardElevation="@dimen/cardview_elevate"
-            app:cardBackgroundColor="@color/cardlayout_bg"
-            app:cardCornerRadius="@dimen/cardview_rounding">
-
-            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingTop="@dimen/cardview_padding" android:paddingBottom="@dimen/cardview_padding" android:paddingStart="@dimen/cardview_pref_padding" android:paddingEnd="@dimen/cardview_padding">
-                <TextView  android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" android:text="@string/wally" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="@color/cardview_pref_title" android:gravity="bottom" />
-                <TextView  android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" android:text="@string/gfx_sum" android:textAppearance="?android:attr/textAppearanceSmall" android:gravity="top" />
-            </LinearLayout>
-
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:layout_gravity="center_vertical"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/cardview_pref_height"
-            app:cardUseCompatPadding="true"
-            app:cardElevation="@dimen/cardview_elevate"
-            app:cardBackgroundColor="@color/cardlayout_bg"
-            app:cardCornerRadius="@dimen/cardview_rounding">
-
-            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingTop="@dimen/cardview_padding" android:paddingBottom="@dimen/cardview_padding" android:paddingStart="@dimen/cardview_pref_padding" android:paddingEnd="@dimen/cardview_padding">
-                <TextView  android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" android:text="@string/daveya" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="@color/cardview_pref_title" android:gravity="bottom" />
-                <TextView  android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" android:text="@string/gfx_sum" android:textAppearance="?android:attr/textAppearanceSmall" android:gravity="top" />
-            </LinearLayout>
-
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:layout_gravity="center_vertical"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/cardview_pref_height"
-            app:cardUseCompatPadding="true"
-            app:cardElevation="@dimen/cardview_elevate"
-            app:cardBackgroundColor="@color/cardlayout_bg"
-            app:cardCornerRadius="@dimen/cardview_rounding">
-
-            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingTop="@dimen/cardview_padding" android:paddingBottom="@dimen/cardview_padding" android:paddingStart="@dimen/cardview_pref_padding" android:paddingEnd="@dimen/cardview_padding">
-                <TextView  android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" android:text="@string/surge" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="@color/cardview_pref_title" android:gravity="bottom" />
-                <TextView  android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" android:text="@string/tweak_sum" android:textAppearance="?android:attr/textAppearanceSmall" android:gravity="top" />
-            </LinearLayout>
-
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:layout_gravity="center_vertical"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/cardview_pref_height"
-            app:cardUseCompatPadding="true"
-            app:cardElevation="@dimen/cardview_elevate"
-            app:cardBackgroundColor="@color/cardlayout_bg"
-            app:cardCornerRadius="@dimen/cardview_rounding">
-
-            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingTop="@dimen/cardview_padding" android:paddingBottom="@dimen/cardview_padding" android:paddingStart="@dimen/cardview_pref_padding" android:paddingEnd="@dimen/cardview_padding">
-                <TextView  android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" android:text="@string/bajasur" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="@color/cardview_pref_title" android:gravity="bottom" />
-                <TextView  android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" android:text="@string/tweak_sum" android:textAppearance="?android:attr/textAppearanceSmall" android:gravity="top" />
-            </LinearLayout>
-
-        </android.support.v7.widget.CardView>
-
-        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/miscinfo_title" android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="center" android:layout_gravity="center"/>
-
-        <android.support.v7.widget.CardView
-            android:layout_gravity="center_vertical"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/cardview_pref_height"
-            app:cardUseCompatPadding="true"
-            app:cardElevation="@dimen/cardview_elevate"
-            app:cardBackgroundColor="@color/cardlayout_bg"
-            app:cardCornerRadius="@dimen/cardview_rounding">
-
-            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/credits_card" android:clickable="true" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/cardview_padding" android:paddingBottom="@dimen/cardview_padding" android:paddingStart="@dimen/cardview_pref_padding" android:paddingEnd="@dimen/cardview_padding">
-                <TextView  android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" android:text="@string/miscinfo_title" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="@color/cardview_pref_title" android:gravity="bottom" />
-                <TextView  android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" android:text="@string/miscinfo_summary" android:textAppearance="?android:attr/textAppearanceSmall" android:gravity="top" />
-            </LinearLayout>
-
-        </android.support.v7.widget.CardView>
-
-    </LinearLayout>
-
+	    </LinearLayout>
 </ScrollView>
